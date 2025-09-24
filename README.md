@@ -16,9 +16,9 @@ We implement and evaluate six strategies:
   - Pairs Trading  
   - Time Horizon Reversal  
 
-- **Diversified Portfolios**  
+- **Diversified Portfolios** - inverse-volatility weighted sleeves
   - Momentum Combo (Breakout + Crossover)  
-  - Momentum Diversified Combo (inverse-volatility weighted sleeves)  
+  - Momentum Reversal Combo (Breakout + Crossover + Pairs Trading)  
 
 All strategies are backtested out-of-sample with **20 bps transaction costs** per trade.  
 
@@ -37,4 +37,3 @@ All strategies are backtested out-of-sample with **20 bps transaction costs** pe
 ✅ **Most efficient combo**: *Momentum Reversal Combo* (IR 2.11, near-zero beta)  
 
 ---
-
